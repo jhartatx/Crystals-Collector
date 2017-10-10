@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Crystals Collector Game</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<div id="wrapper">
+	<div class="title">Crystals Collector!</div>
+
+
+	<div id="rules"> 
+		<ul>
+			<li>How to play: </li><br>
+			<li>- You will be given a random number at the start of the game</li>
+			<li>- There are four crystals below. By clicking on a crystal you will add a specific 
+			amount of points to your total score</li>
+			<li>- You win by matching the total score to the random number, you lose the game if 
+			your total score goes above the random number</li>
+			<li>- Each time when the game starts, the game will change the values of each crystal</li>
+		</ul>
+	</div><br>
+
+	<h2>Number to guess: </h2><br>
+	<h2 id="random-number"></h2><br>
+
+
+	<div id="totals">
+		<h2>Wins: </h2><br>
+		<h2 id="wins"></h2><br>
+		<h2>Losses: </h2><br>
+		<h2 id="losses"></h2><br>
+	</div>
+
+	<div id="crystals">
+
+		<button id="button1"><img src="assets/images/crystal.png" alt="Diamond"></button>
+		<button id="button2"><img src="assets/images/Sapphire.png" alt="sapphire"></button>
+		<button id="button3"><img src="assets/images/gem.png" alt="gem"></button>
+		<button id="button4"><img src="assets/images/Gemstone.png" alt="gemstone"></button>
+
+	</div>
+
+	<div id="score">
+
+		<h2 id="total-score">Your total score is: </h2>
+		<h2 id="total-score-display"></h2>
+
+	</div>
+
+
+		<script type="text/javascript" src="assets/javascript/game.js"> </script> 
+	</div>
+</body>
+
+</html>
